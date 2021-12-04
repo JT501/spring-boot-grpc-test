@@ -1,6 +1,13 @@
 spring:
   application:
     name: grpc-server
+  h2:
+    console:
+      enabled: true
+  datasource:
+    username: sa
+    password: 12345678
+
 grpc:
   server:
     port: 9898

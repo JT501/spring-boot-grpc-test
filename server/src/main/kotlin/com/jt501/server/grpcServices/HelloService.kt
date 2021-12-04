@@ -1,4 +1,4 @@
-package com.jt501.server
+package com.jt501.server.grpcServices
 
 import com.jt501.services.hello.HelloReply
 import com.jt501.services.hello.HelloRequest
